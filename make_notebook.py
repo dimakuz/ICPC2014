@@ -17,11 +17,11 @@ _sections = {
 		("Maximum Flow (Push-relabel)", 'cpp', "MaximumFlow_PushRelabel.cc"),
 		("Minimum-cost Maximum Flow", 'cpp', "MinCostMaxFlow.cc"),
 		("Strongly-connected Components", 'cpp', "SCC.cc"),
+		("Dijkstra", 'cpp', "dijkstra.cpp"),
 	],
 	"Maths": [
 		("Integer Algebra", 'cpp', "Algebra.cc"),
 		("Linear Algebra", 'cpp', "LinearAlgebra.cc"),
-		("Simplex", 'cpp', "Simplex.cc"),
 	],
 	"Geometry": [
 		("Basic floating point comparison", 'cpp', "FloatCompare.cc"),
