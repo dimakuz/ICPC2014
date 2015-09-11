@@ -10,6 +10,8 @@ import subprocess
 
 _sections = {
 	"Graphs": [
+                ('Prim\'s', 'cpp', 'prims.cpp'),
+                ('Kruskal', 'cpp', 'kruskal.cpp'),
 		("Articulation Points", 'cpp', "ArticulationPoint.cc"),
 		("Bellman-Ford", 'cpp', "BellmanFord.cc"),
 		("Floyd-Warshall", 'cpp', "FloydWarshall.cc"),
