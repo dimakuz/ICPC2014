@@ -17,13 +17,19 @@ _sections = {
 		("Floyd-Warshall", 'cpp', "FloydWarshall.cc"),
 		("Maximum Flow (Dinic)", 'cpp', "MaximumFlowDinic.cc"),
 		("Maximum Flow (Push-relabel)", 'cpp', "MaximumFlow_PushRelabel.cc"),
-		("Minimum-cost Maximum Flow", 'cpp', "MinCostMaxFlow.cc"),
+	#	("Minimum-cost Maximum Flow", 'cpp', "MinCostMaxFlow.cc"),
+                ("Minimum-cost Maximum Flow", "cpp", "MinCutMaxFlow.cc"),
 		("Strongly-connected Components", 'cpp', "SCC.cc"),
 		("Dijkstra", 'cpp', "dijkstra.cpp"),
+                ("2-SAT", 'cpp', '2sat.cpp'),
+                ("Union-Find", "cpp", "uf.cc"),
 	],
 	"Maths": [
 		("Integer Algebra", 'cpp', "Algebra.cc"),
-		("Linear Algebra", 'cpp', "LinearAlgebra.cc"),
+		# ("Linear Algebra", 'cpp', "LinearAlgebra.cc"),
+		("Linear Algebra", 'cpp', "LinAlg.cc"),
+                ('FFT', 'cpp', 'fft.cpp'),
+
 	],
 	"Geometry": [
 		("Basic floating point comparison", 'cpp', "FloatCompare.cc"),
